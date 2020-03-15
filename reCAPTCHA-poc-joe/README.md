@@ -30,4 +30,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 [ng-recaptcha](https://www.npmjs.com/package/ng-recaptcha).
 [Angular CODE ng-recaptcha](https://dethariel.github.io/ng-recaptcha/v3).
 [GitHub CODE ng-recaptcha](https://github.com/DethAriel/ng-recaptcha#forms-ready).
+[Google Develop Guide recaptcha](https://developers.google.com/recaptcha/docs/v3).
 
