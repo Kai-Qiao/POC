@@ -20,7 +20,7 @@ import { HttpClientModule } from '@angular/common/http';
     HttpClientModule,
   ],
   providers: [
-    { provide: RECAPTCHA_V3_SITE_KEY, useValue: '<your client key>' },
+    { provide: RECAPTCHA_V3_SITE_KEY, useValue: '//6LdCO-//EUAAAAACYP0jgwhCcKe4EtqoTKJOtOw58o//' },
     { provide: RECAPTCHA_BASE_URL, useValue: 'https://recaptcha.net/recaptcha/api.js' },//google.com Domestic network access is not available
   ],
   bootstrap: [AppComponent]

@@ -2,7 +2,7 @@ var request = require('request');
 
 async function sendRequestToGoogle(req, res) {
 
-    const secret = "<your server side key>";
+    const secret = "//6LdCO-//EUAAAAAFRDjETPauNeQ-//mcdFHdC21i7isI//";
     const token = req.body.token;
 
     //Domestic network access is not available
