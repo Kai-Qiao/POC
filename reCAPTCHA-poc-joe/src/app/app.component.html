@@ -1,7 +1,8 @@
 
 <h1>{{title}}</h1>
-<button (click)="getDiff()">Get Diff</button>
-<div class="row">
+<button (click)="getDiff()">google Diff</button>
+
+<!-- <div class="row">
   <div class="col-12">
     <h3>Displayed diff</h3>
     <inline-diff 
@@ -11,14 +12,14 @@
       style="width: 100%;">
     </inline-diff>
   </div>
-</div>
+</div> -->
 
-<div>
+<!-- <div>
   <textarea name="1" id="1" cols="30" rows="10" >{{oldText}}</textarea>
   <textarea name="2" id="2" cols="30" rows="10">{{newText}}</textarea>
-</div>
+</div> -->
 
-<button (click)="testDiff()" >difff</button>
+<button (click)="testDiff()" >diff</button>
 
 <router-outlet>
 </router-outlet>
