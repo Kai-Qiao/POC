@@ -120,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "reCAPTCHA-poc-joe"
+    }
+  },
+  "defaultProject": "reCAPTCHA-poc-joe",
+  "cli": {
+    "analytics": false
+  }
 }

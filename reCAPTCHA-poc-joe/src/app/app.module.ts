@@ -7,7 +7,7 @@ import { V3Component } from './components/reCAPTCHA/v3/v3.component';
 import { RECAPTCHA_V3_SITE_KEY, RecaptchaV3Module ,RECAPTCHA_BASE_URL } from 'ng-recaptcha';
 import { HttpClientModule } from '@angular/common/http';
 
-
+import { NgxDiffModule } from 'ngx-diff';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,6 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     RecaptchaV3Module,
     HttpClientModule,
+    NgxDiffModule,
   ],
   providers: [
     { provide: RECAPTCHA_V3_SITE_KEY, useValue: '//6LdCO-//EUAAAAACYP0jgwhCcKe4EtqoTKJOtOw58o//' },
